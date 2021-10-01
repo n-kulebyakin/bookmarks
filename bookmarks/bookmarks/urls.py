@@ -8,7 +8,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('account/', include('account.urls')),
-    path('social-auth/', include('social_django.url', namespace='social')),
+    #path('social-auth/', include('social_django.url', namespace='social')),
     
 ]
 
